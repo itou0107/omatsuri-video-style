@@ -6,7 +6,6 @@ body {
     content: "\f004"; /* ハートアイコンのUnicode */
     font-family: "Font Awesome 6 Free"; /* Font Awesome 6のフォントを指定 */
     font-weight: 900; /* 太さを指定 */
-    font-size: 50px;  /* アイコンのサイズ */
     color: red;  /* アイコンの色 */
     margin-right: 10px;
 }
