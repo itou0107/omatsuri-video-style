@@ -53,7 +53,7 @@ article.course .article-info h4 {
   background-image: none !important;
 }
 /* 「再生」アイコンのサイズ */
-.icon-button.play.black {
+.active-courses-slider .icon-button.play.black {
   background-size: 18px;
 }
 /* 「マイリスト」アイコンの位置 */
