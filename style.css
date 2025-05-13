@@ -11,6 +11,12 @@ body {
   color: red; /* アイコンの色 */
   margin-right: 10px;
 }
+/* カテゴリーのタイトル */
+.home-page-slider .heading__h4.box-header {
+  color: #fff;
+  text-align: left;
+  padding-left: 1vw;
+}
 /* 動画一覧のはみ出た部分を非表示 */
 .home-page-slider .page-container .active-courses-slider {
   overflow: hidden;
@@ -19,6 +25,10 @@ body {
 .active-courses-slider .slick-slide {
   width: 350px !important;
 }
+/* カード型のタイトル */
+article.course .article-info h4 {
+  max-width: 90%;
+}
 /* カード型の画像部分の高さを指定 */
 .article.course figure {
   height: 200px;
@@ -26,6 +36,10 @@ body {
 /* カード型の親要素を絶対位置にする */
 .active-courses-slider article.course.card-wrapper .card {
   position: relative;
+}
+/* アイコンの余白 */
+.active-courses-slider article.course.card-wrapper .card .icons-container {
+  padding-top: 0;
 }
 /* アイコンの丸枠を非表示 */
 .active-courses-slider .icon-button.black-border {
@@ -38,11 +52,20 @@ body {
 .active-courses-slider .icon-button.plus.black:hover {
   background-image: none !important;
 }
+/* 「再生」アイコンのサイズ */
+.icon-button.play.black {
+  background-size: 18px;
+}
 /* 「マイリスト」アイコンの位置 */
 .active-courses-slider .icon-button.plus.black {
+  position: absolute;
+  top: 5px;
+  right: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f1f1f1;
+  border: 1px solid #f1f1f1;
 }
 /* 「マイリスト」アイコンをFAに変更 */
 .active-courses-slider .icon-button.plus.black::before {
@@ -68,7 +91,12 @@ body {
 
 /* 640px以下 */
 @media (max-width: 640px) {
+  /* カード型の幅を固定 */
   .active-courses-slider .slick-slide {
     width: 200px !important;
+  }
+  /* 「詳細」アイコンの位置 */
+  .active-courses-slider .icon-button.info.black {
+    top: 127px;
   }
 }
