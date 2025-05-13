@@ -40,7 +40,9 @@ body {
 }
 /* 「マイリスト」アイコンの位置 */
 .active-courses-slider .icon-button.plus.black {
-  background-image: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 「マイリスト」アイコンをFAに変更 */
 .active-courses-slider .icon-button.plus.black::before {
@@ -52,7 +54,10 @@ body {
 .active-courses-slider .icon-button.info.black {
   position: absolute;
   top: 205px;
-  right: 0;
+  right: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 「詳細」アイコンをFAに変更 */
 .active-courses-slider .icon-button.info.black::before {
@@ -61,7 +66,7 @@ body {
   font-weight: 900;
 }
 
-/* 640px以下ではスライド幅を画面幅100%に */
+/* 640px以下 */
 @media (max-width: 640px) {
   .active-courses-slider .slick-slide {
     width: 200px !important;
