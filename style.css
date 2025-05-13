@@ -9,3 +9,68 @@ body {
     color: red;  /* アイコンの色 */
     margin-right: 10px;
 }
+  .home-notice-container {
+    color: #fff;
+  }
+  /* 動画一覧のはみ出た部分を非表示 */
+  .home-page-slider .page-container {
+    overflow: hidden;
+  }
+  /* カード型の幅を固定 */
+  .active-courses-slider .slick-slide,
+  .courses-slider .slick-slide,
+  .favorite-courses-slider .slick-slide,
+  .following-courses-slider .slick-slide,
+  .home-courses-slider .slick-slide {
+    width: 350px !important;
+  }
+  /* カード型の画像部分の高さを指定 */
+  .article.course figure {
+    height: 200px;
+  }
+  /* カード型の親要素を絶対位置にする */
+  article.course.card-wrapper .card {
+    position: relative;
+  }
+  /* アイコンの丸枠を非表示 */
+  .icon-button.black-border {
+    border: none;
+  }
+  /* アイコンを非表示 */
+  .icon-button.info.black,
+  .icon-button.info.black:hover {
+    background-image: none;
+  }
+  /* 「マイリスト」アイコンの位置 */
+  .icon-button.plus.black {
+    background-image: none;
+  }
+  /* 「マイリスト」アイコンをFAに変更 */
+  .icon-button.plus.black::before {
+    font-family: "Font Awesome 6 Free";
+    content: '\f004';
+    font-weight: 900;
+  }
+  /* 「詳細」アイコンの位置 */
+  .icon-button.info.black {
+    position: absolute;
+    top: 200px;
+    right: 0;
+  }
+  /* 「詳細」アイコンをFAに変更 */
+  .icon-button.info.black::before {
+    font-family: "Font Awesome 6 Free";
+    content: '\f142';
+    font-weight: 900;
+  }
+
+  /* 640px以下ではスライド幅を画面幅100%に */
+  @media (max-width: 640px) {
+    .active-courses-slider .slick-slide,
+    .courses-slider .slick-slide,
+    .favorite-courses-slider .slick-slide,
+    .following-courses-slider .slick-slide,
+    .home-courses-slider .slick-slide {
+      width: 200px !important;
+    }
+  }
