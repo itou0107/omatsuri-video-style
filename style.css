@@ -33,7 +33,7 @@ article.course.card-wrapper .card {
 }
 /* アイコンの丸枠を非表示 */
 .icon-button.black-border {
-  border: none;
+  border: none !important;
 }
 /* アイコンを非表示 */
 .icon-button.info.black,
