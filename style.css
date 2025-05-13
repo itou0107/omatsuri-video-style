@@ -59,7 +59,7 @@ article.course .article-info h4 {
 .active-courses-slider .icon-button.play.black {
   background-size: 18px;
   position: relative;
-  top: -10px;
+  top: 10px;
 }
 /* 「マイリスト」アイコンの位置 */
 .active-courses-slider .icon-button.plus.black {
