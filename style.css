@@ -5,9 +5,9 @@ body {
   color: #fff;
 }
 .home-notice-container .notices-list li:before {
-  content: "\f004"; /* ハートアイコンのUnicode */
-  font-family: "Font Awesome 6 Free"; /* Font Awesome 6のフォントを指定 */
-  font-weight: 900; /* 太さを指定 */
+  font-family: "Font Awesome 6 Free";
+  content: "\f004" !important;
+  font-weight: 900;
   color: red; /* アイコンの色 */
   margin-right: 10px;
 }
