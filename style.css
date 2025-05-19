@@ -1,16 +1,6 @@
 body {
   background-color: #000;
 }
-.home-notice-container {
-  color: #fff;
-}
-.home-notice-container .notices-list li:before {
-  font-family: "Font Awesome 6 Free";
-  content: "\f004" !important;
-  font-weight: 900;
-  color: red; /* アイコンの色 */
-  margin-right: 10px;
-}
 /* カテゴリーのタイトル */
 .home-page-slider .heading__h4.box-header {
   color: #fff;
