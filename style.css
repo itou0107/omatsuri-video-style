@@ -117,6 +117,13 @@ article.course .article-info h4 {
   color: #fff;
 }
 
+/* 動画一覧の情報部分 */
+article.course.card-wrapper .card .icons-container {
+    background-color: #000;
+    border: #333 solid 1px;
+    border-top: none;
+}
+
 /* 640px以下 */
 @media (max-width: 640px) {
   /* カード型の幅を固定 */
