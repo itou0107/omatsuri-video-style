@@ -1,71 +1,46 @@
 body {
   background-color: #000;
 }
-/* カテゴリーのタイトル */
-.home-page-slider .heading__h4.box-header {
+/* ---------- テキストを白に変更 ---------- */
+.home-page-slider .heading__h4.box-header, /* カテゴリーのタイトル */
+.registration-links a, /* ヘッダーのログインボタン */
+.login-registration .copy-container, /* ログイン画面のメッセージ */
+.user-data h6, /* 管理画面のユーザー名 */
+.status-calculator, /* 動画一覧を見る */
+.learner-heading a,
+.link-dashboard a 
+{
   color: #fff;
-  text-align: left !important;
-  padding-left: 1vw !important;
 }
-article.course .article-info h4 {
-  max-width: 90%;
-}
-/* 動画一覧のはみ出た部分を非表示 */
-.home-page-slider .page-container .active-courses-slider {
-  overflow: hidden;
-}
-/* トップ画面のログインボタン */
+
+/* ---------- ここからヘッダー ---------- */
+/* ヘッダーのログインボタン */
 .registration-links a {
-  color: #fff;
   background-color: #292935;
 }
 
-/* ログイン画面のメッセージ */
-.login-registration .copy-container {
-  color: #fff;
+/* ---------- ここからホーム ----------　*/
+/* 動画一覧のカテゴリータイトル */
+.home-page-slider .heading__h4.box-header {
+  text-align: left !important;
 }
-
-/* 新規登録後ページ */
-.thanks-container {
-}
-
-/* 管理画面のユーザー名 */
-.user-data h6 {
-  color: #fff;
-}
-
-/* 動画一覧を見る */
-.status-calculator {
-  color: #fff;
-}
-
-.learner-heading a {
-  color: #fff;
-}
-
-.link-dashboard a {
-  color: #fff;
-}
-
-/* 動画一覧の情報部分 */
+/* 動画一覧のボタン部分 */
 article.course.card-wrapper .card .icons-container {
   background-color: #000;
   border: #333 solid 1px;
   border-top: none;
 }
 
+/* ---------- ここから新規登録後ページ ----------　*/
+/* 新規登録後ページ */
+.thanks-container {
+}
+
 /* 640px以下 */
 @media (max-width: 640px) {
-  /* カード型の幅を固定 */
-  .active-courses-slider .slick-slide {
-    width: 200px !important;
-  }
-  /* 「詳細」アイコンの位置 */
-  .active-courses-slider .icon-button.info.black {
-    top: 127px;
-  }
-  /* 動画一覧を見る(スマホ) */
-  .course-lesson-copy {
+  /* ---------- テキストを白に変更 ---------- */
+  .course-lesson-copy /* 動画一覧を見る(スマホ) */
+  {
     color: #fff;
   }
 }
