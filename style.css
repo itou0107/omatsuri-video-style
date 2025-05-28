@@ -14,75 +14,6 @@ article.course .article-info h4 {
 .home-page-slider .page-container .active-courses-slider {
   overflow: hidden;
 }
-/* カード型の幅を固定 */
-.active-courses-slider .slick-slide {
-  width: 350px !important;
-}
-/* カード型のタイトル */
-article.course .article-info h4 {
-  max-width: 90%;
-}
-/* カード型の画像部分の高さを指定 */
-.article.course figure {
-  height: 200px;
-}
-/* カード型の親要素を絶対位置にする */
-.active-courses-slider article.course.card-wrapper .card {
-  position: relative;
-}
-/* アイコンの余白 */
-.active-courses-slider article.course.card-wrapper .card .icons-container {
-  padding-top: 0;
-}
-/* アイコンの丸枠を非表示 */
-.active-courses-slider .icon-button.black-border {
-  border: none;
-}
-/* アイコンを非表示 */
-.active-courses-slider .icon-button.info.black,
-.active-courses-slider .icon-button.info.black:hover,
-.active-courses-slider .icon-button.plus.black,
-.active-courses-slider .icon-button.plus.black:hover {
-  background-image: none !important;
-}
-/* 「再生」アイコンのサイズ */
-.active-courses-slider .icon-button.play.black {
-  background-size: 18px;
-  position: relative;
-  top: 10px;
-}
-/* 「マイリスト」アイコンの位置 */
-.active-courses-slider .icon-button.plus.black {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #f1f1f1;
-  border: 1px solid #f1f1f1;
-}
-/* 「マイリスト」アイコンをFAに変更 */
-.active-courses-slider .icon-button.plus.black::before {
-  font-family: "Font Awesome 6 Free";
-  content: "\f004";
-  font-weight: 900;
-}
-/* 「詳細」アイコンの位置 */
-.active-courses-slider .icon-button.info.black {
-  position: absolute;
-  top: 205px;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* 「詳細」アイコンをFAに変更 */
-.active-courses-slider .icon-button.info.black::before {
-  font-family: "Font Awesome 6 Free";
-  content: "\f142";
-  font-weight: 900;
-}
 /* トップ画面のログインボタン */
 .registration-links a {
   color: #fff;
@@ -96,7 +27,6 @@ article.course .article-info h4 {
 
 /* 新規登録後ページ */
 .thanks-container {
-
 }
 
 /* 管理画面のユーザー名 */
@@ -119,9 +49,9 @@ article.course .article-info h4 {
 
 /* 動画一覧の情報部分 */
 article.course.card-wrapper .card .icons-container {
-    background-color: #000;
-    border: #333 solid 1px;
-    border-top: none;
+  background-color: #000;
+  border: #333 solid 1px;
+  border-top: none;
 }
 
 /* 640px以下 */
@@ -136,6 +66,6 @@ article.course.card-wrapper .card .icons-container {
   }
   /* 動画一覧を見る(スマホ) */
   .course-lesson-copy {
-    color: #fff;   
+    color: #fff;
   }
 }
