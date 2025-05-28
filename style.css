@@ -83,6 +83,39 @@ article.course .article-info h4 {
   content: "\f142";
   font-weight: 900;
 }
+/* トップ画面のログインボタン */
+.registration-links a {
+  color: #fff;
+  background-color: #292935;
+}
+
+/* ログイン画面のメッセージ */
+.login-registration .copy-container {
+  color: #fff;
+}
+
+/* 新規登録後ページ */
+.thanks-container {
+
+}
+
+/* 管理画面のユーザー名 */
+.user-data h6 {
+  color: #fff;
+}
+
+/* 動画一覧を見る */
+.status-calculator {
+  color: #fff;
+}
+
+.learner-heading a {
+  color: #fff;
+}
+
+.link-dashboard a {
+  color: #fff;
+}
 
 /* 640px以下 */
 @media (max-width: 640px) {
@@ -93,5 +126,9 @@ article.course .article-info h4 {
   /* 「詳細」アイコンの位置 */
   .active-courses-slider .icon-button.info.black {
     top: 127px;
+  }
+  /* 動画一覧を見る(スマホ) */
+  .course-lesson-copy {
+    color: #fff;   
   }
 }
