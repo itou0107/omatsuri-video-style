@@ -8,7 +8,8 @@ body {
 .user-data h6, /* 管理画面のユーザー名 */
 .status-calculator, /* 動画一覧を見る */
 .learner-heading a,
-.link-dashboard a 
+.link-dashboard a,
+.static-bg h3 /* 利用規約と個人情報取り扱い */
 {
   color: #fff;
 }
