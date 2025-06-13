@@ -138,6 +138,37 @@ article.course.card-wrapper .card .icons-container {
 .thanks-container {
 }
 
+/* ---------- ここから検索後の動画一覧ページ ----------　*/
+/* 画像の部分を消す */
+#multimedia-container .img-container {
+    display: none;
+}
+/* タイトルと動画一覧の下影を消す */
+#multimedia-container .search-banner,
+#multimedia-container .member-content-area .content-white-box {
+    box-shadow: none;
+}
+#multimedia-container .member-content-area .content-white-box {
+    margin-top: -6.5vw;
+}
+#multimedia-container .member-content-area .search-banner {
+    /* background-image: url(https://technoeye.static.jp/media/%E6%A0%BC%E5%AD%90%E7%B8%9E_%E8%83%8C%E6%99%AF_%E9%87%91.jpg); */
+    padding: 3em !important;
+    margin-bottom: 0;
+}
+/*  */
+#multimedia-container .member-content-area .content-white-box h4 {
+    display: none;
+}
+/* タイトルと説明文を中央寄せ */
+#multimedia-container .member-content-area .search-banner .copy-container {
+    text-align: center;
+    width: 100% !important;
+}
+#multimedia-container .member-content-area .search-banner .copy-container p.margin-bot20 {
+    margin-bottom: 0 !important;
+}
+
 @media screen and (max-width: 992px) {
     /* ---------- ここからトップページ ---------- */
     /* 動画一覧の余白 */
@@ -219,13 +250,22 @@ article.course.card-wrapper .card .icons-container {
         background-color: #fff;
     }
 
-
 }
 
 /* 640px以下 */
 @media (max-width: 640px) {
-  /* ---------- テキストを白に変更 ---------- */
-  .course-lesson-copy /* 動画一覧を見る(スマホ) */ {
-    color: #fff;
-  }
+    /* ---------- テキストを白に変更 ---------- */
+    .course-lesson-copy /* 動画一覧を見る(スマホ) */ {
+        color: #fff;
+    }
+  
+    /* ---------- ここから検索後の動画一覧ページ ----------　*/
+    /* 検索結果の余白 */
+    #multimedia-container .member-content-area .search-banner {
+        padding-bottom: 0 !important;
+    }
+    /* キーワード検索の余白 */
+    #multimedia-container .member-content-area .heading__h5 .text-primary .width100 .margin-bot10 {
+        margin-bottom: 0 !important;
+    }
 }
