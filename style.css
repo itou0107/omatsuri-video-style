@@ -9,8 +9,7 @@ body {
 .status-calculator, /* 動画一覧を見る */
 .learner-heading a,
 .link-dashboard a,
-.static-bg h3 /* 利用規約と個人情報取り扱い */
-{
+.static-bg h3 /* 利用規約と個人情報取り扱い */ {
   color: #fff;
 }
 
@@ -20,7 +19,7 @@ body {
   background-color: #292935;
 }
 
-/* ---------- ここからホーム ----------　*/
+/* ---------- ここからトップページ ----------　*/
 /* 動画一覧のカテゴリータイトル */
 .home-page-slider .heading__h4.box-header {
   text-align: left !important;
@@ -31,17 +30,202 @@ article.course.card-wrapper .card .icons-container {
   border: #333 solid 1px;
   border-top: none;
 }
+/* 動画一覧の余白 */
+.active-courses-slider .slick-slide,
+.courses-slider .slick-slide,
+.favorite-courses-slider .slick-slide,
+.following-courses-slider .slick-slide,
+.home-courses-slider .slick-slide {
+    padding: 1vw 5px;
+}
+
+/* ---------- ここからお知らせ ----------　*/
+/* お知らせの文字 */
+.home-notice-container {
+    color: #fff;
+}
+/* お知らせのアイコン */
+#notices .notices-list li:before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f101" !important;
+    font-weight: 900;
+}
+/* お知らせ(ページネーション) */
+.home-notice-container notice-paginator .paginationBlock .pagination {
+    background-color: transparent;
+}
+.home-notice-container notice-paginator .paginationBlock .pagination .page-item {
+    color: #fff;
+    border: solid 1px #dfc439;
+}
+
+/* ---------- ここから視聴ページ ----------　*/
+/* アイコン変更 */
+.mobile-menu-learner .hamburger-menu-icon {
+    background-image: none !important;
+}
+.mobile-menu-learner .hamburger-menu-icon::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f008";
+    font-weight: 900;
+    font-size: 3em;
+    position: absolute;
+    color: gray;
+    left: 20px;
+    top: 14px;
+}
+.mobile-menu-learner .hamburger-menu-icon::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f107";
+    font-weight: 900;
+    font-size: 2rem;
+    position: absolute;
+    color: gray;
+    left: 60px;
+    top: 34px;
+}
+
+/* ---------- ここから詳細ページ ----------　*/
+/* 再生ボタン */
+.course-info .button-container a {
+    width: 100%;
+    text-align: center;
+}
+.course-info .button-container a::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f04b";
+    font-weight: 900;
+    color: #000;
+}
+
+/* ---------- ここからマイページ ---------- */
+/* アイコン変更 */
+/* 共通 */
+.member-left-links .members-links li a .icon.course-nav,
+.member-left-links .members-links li a .icon.event-nav {
+    background-image: none !important;
+    text-align: center;
+    align-content: center;
+}
+/* 選択時のアイコン */
+.member-left-links .members-links li.active a .icon.course-nav::before,
+.member-left-links .members-links li:focus a .icon.course-nav::before,
+.member-left-links .members-links li:hover a .icon.course-nav::before,
+.member-left-links .members-links li.active a .icon.event-nav::before,
+.member-left-links .members-links li:focus a .icon.event-nav::before,
+.member-left-links .members-links li:hover a .icon.event-nav::before {
+    color: #fff;
+}
+/* コンテンツ(PC) */
+.member-left-links .members-links li a .icon.course-nav::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f26c";
+    font-weight: 900;
+    font-size: 20px;
+    color: #303030;
+}
+/* イベント(PC) */
+.member-left-links .members-links li a .icon.event-nav::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f519";
+    font-weight: 900;
+    font-size: 20px;
+    color: #303030;
+}
 
 /* ---------- ここから新規登録後ページ ----------　*/
 /* 新規登録後ページ */
 .thanks-container {
 }
 
+@media screen and (max-width: 992px) {
+    /* ---------- ここからトップページ ---------- */
+    /* 動画一覧の余白 */
+    .active-courses-slider .slick-slide,
+    .courses-slider .slick-slide,
+    .favorite-courses-slider .slick-slide,
+    .following-courses-slider .slick-slide,
+    .home-courses-slider .slick-slide {
+        padding: 1rem 5px;
+    }
+
+    /* 検索欄の余白とアイコン(スマホ) */
+    .search-courses #multimedia-search-form .form-container.full-width {
+        margin: 0px 2%;
+        width: 96%;
+        border-radius: 4px;
+    }
+    .search-courses .form-container button,
+    .search-courses .form-container input[type=submit] {
+        background-position: 80% !important;
+    }
+    
+    /* ---------- ここから詳細ページ ---------- */
+    /* 文字の色変更 */
+    .course-details-recommended h3 {
+        color: #fff;
+        padding: 3rem 5%;
+    }
+
+    /* ---------- ここから設定ページ ---------- */
+    /* 余白追加(スマホ) */
+    #profile-module .member-content-area .content-grey-box {
+        background-color: white;
+    }
+
+    /* ---------- ここからマイページ ---------- */
+    /* 通常時のアイコン */
+    .member-left-links .members-links li a .icon.course-nav::before,
+    .member-left-links .members-links li a .icon.event-nav::before {
+        color: #b5b8c0;
+    }
+
+    /* 選択時のアイコン */
+    .member-left-links .members-links li.active a .icon.course-nav::before,
+    .member-left-links .members-links li:focus a .icon.course-nav::before,
+    .member-left-links .members-links li:hover a .icon.course-nav::before,
+    .member-left-links .members-links li.active a .icon.event-nav::before,
+    .member-left-links .members-links li:focus a .icon.event-nav::before,
+    .member-left-links .members-links li:hover a .icon.event-nav::before {
+        color: #303030;
+    }
+
+    /* ---------- ここからメッセージ ---------- */
+    /* 必須項目の文字色変更 */
+    .notification-email .styled-checkbox+label span {
+        color: #fff;
+    }
+    #message-compose-container .member-content-area .content-grey-box .note.add-padding {
+        color: #fff;
+    }
+
+    /* ---------- ここから通知 ---------- */
+    /* チェックボックスの説明文 */
+    #notification-container .styled-checkbox+label span {
+        color: #fff;
+    }
+    /* 必須項目の文字色変更 */
+    #notification-container .member-content-area .content-grey-box .note.mobile-padding {
+        color: #fff;
+    }
+
+    /* ---------- ここからファイル ---------- */
+    /* 並び替えの文字色 */
+    .member-content-area .inner-heading.mobile-full-width .right span.bold{
+        color: #fff;
+    }
+    /* アップロード画面の背景 */
+    .member-content-area .content-grey-box.small-padding {
+        background-color: #fff;
+    }
+
+
+}
+
 /* 640px以下 */
 @media (max-width: 640px) {
   /* ---------- テキストを白に変更 ---------- */
-  .course-lesson-copy /* 動画一覧を見る(スマホ) */
-  {
+  .course-lesson-copy /* 動画一覧を見る(スマホ) */ {
     color: #fff;
   }
 }
