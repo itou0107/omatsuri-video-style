@@ -148,6 +148,11 @@ article.course.card-wrapper .card .icons-container {
 .main-container.ng-scope .img-container {
   display: none;
 }
+/* 「動画」タイトル非表示 */
+#multimedia-container .member-content-area .content-white-box h4,
+.main-container.ng-scope.member-content-area .content-white-box h4 {
+  display: none;
+}
 /* タイトルと動画一覧の下影を消す */
 #multimedia-container .search-banner,
 #multimedia-container .member-content-area .content-white-box {
@@ -160,10 +165,6 @@ article.course.card-wrapper .card .icons-container {
   /* background-image: url(https://technoeye.static.jp/media/%E6%A0%BC%E5%AD%90%E7%B8%9E_%E8%83%8C%E6%99%AF_%E9%87%91.jpg); */
   padding: 3em !important;
   margin-bottom: 0;
-}
-/*  */
-#multimedia-container .member-content-area .content-white-box h4 {
-  display: none;
 }
 /* タイトルと説明文を中央寄せ */
 #multimedia-container .member-content-area .search-banner .copy-container {
