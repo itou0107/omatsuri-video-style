@@ -153,13 +153,16 @@ article.course.card-wrapper .card .icons-container {
 .main-container.ng-scope .search-result-area h4 {
   display: none;
 }
+/* エリアをひとつにする */
 #multimedia-container .member-content-area .content-white-box,
 .main-container.ng-scope .search-result-area {
   margin-top: -6.5vw;
 }
 /* タイトルと動画一覧の下影を消す */
 #multimedia-container .search-banner,
-#multimedia-container .member-content-area .content-white-box {
+#multimedia-container .member-content-area .content-white-box,
+.main-container.ng-scope .search-banner,
+.main-container.ng-scope .search-result-area {
   box-shadow: none;
 }
 #multimedia-container .member-content-area .search-banner {
