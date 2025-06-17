@@ -36,7 +36,7 @@ article.course.card-wrapper .card .icons-container {
 .favorite-courses-slider .slick-slide,
 .following-courses-slider .slick-slide,
 .home-courses-slider .slick-slide {
-    padding: 1vw 5px;
+    padding: 1vw 5px !important;
 }
 
 /* ---------- ここからお知らせ ----------　*/
