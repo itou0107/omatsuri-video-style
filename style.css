@@ -277,6 +277,10 @@ article.course.card-wrapper .card .icons-container {
   .member-content-area .content-grey-box.small-padding {
     background-color: #fff;
   }
+  /* ---------- ここからカテゴリー別の動画一覧ページ ----------　*/
+  .main-container.ng-scope .search-banner {
+    margin-bottom: 0;
+  }
 }
 
 /* 640px以下 */
