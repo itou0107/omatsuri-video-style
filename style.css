@@ -183,6 +183,10 @@ article.course.card-wrapper .card .icons-container {
   .member-content-area
   .search-banner
   .copy-container
+  p.margin-bot20,
+.main-container.ng-scope
+  .search-banner
+  .copy-container
   p.margin-bot20 {
   margin-bottom: 0 !important;
 }
