@@ -150,7 +150,7 @@ article.course.card-wrapper .card .icons-container {
 }
 /* 「動画」タイトル非表示 */
 #multimedia-container .member-content-area .content-white-box h4,
-.main-container.ng-scope.member-content-area .content-white-box h4 {
+.main-container.ng-scope .search-result-area h4 {
   display: none;
 }
 /* タイトルと動画一覧の下影を消す */
