@@ -172,7 +172,8 @@ article.course.card-wrapper .card .icons-container {
   margin-bottom: 0;
 }
 /* タイトルと説明文を中央寄せ */
-#multimedia-container .member-content-area .search-banner .copy-container {
+#multimedia-container .member-content-area .search-banner .copy-container,
+.main-container.ng-scope .search-banner .copy-container {
   text-align: center;
   width: 100% !important;
 }
