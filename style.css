@@ -36,66 +36,70 @@ article.course.card-wrapper .card .icons-container {
 .favorite-courses-slider .slick-slide,
 .following-courses-slider .slick-slide,
 .home-courses-slider .slick-slide {
-    padding: 1vw 5px !important;
+  padding: 1vw 5px !important;
 }
 
 /* ---------- ここからお知らせ ----------　*/
 /* お知らせの文字 */
 .home-notice-container {
-    color: #fff;
+  color: #fff;
 }
 /* お知らせのアイコン */
 #notices .notices-list li:before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f101" !important;
-    font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  content: "\f101" !important;
+  font-weight: 900;
 }
 /* お知らせ(ページネーション) */
 .home-notice-container notice-paginator .paginationBlock .pagination {
-    background-color: transparent;
+  background-color: transparent;
 }
-.home-notice-container notice-paginator .paginationBlock .pagination .page-item {
-    color: #fff;
-    border: solid 1px #dfc439;
+.home-notice-container
+  notice-paginator
+  .paginationBlock
+  .pagination
+  .page-item {
+  color: #fff;
+  border: solid 1px #dfc439;
 }
 
 /* ---------- ここから視聴ページ ----------　*/
 /* アイコン変更 */
 .mobile-menu-learner .hamburger-menu-icon {
-    background-image: none !important;
+  background-image: none !important;
 }
 .mobile-menu-learner .hamburger-menu-icon::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f008";
-    font-weight: 900;
-    font-size: 3em;
-    position: absolute;
-    color: gray;
-    left: 20px;
-    top: 14px;
+  font-family: "Font Awesome 6 Free";
+  content: "\f008";
+  font-weight: 900;
+  font-size: 3em;
+  position: absolute;
+  color: gray;
+  left: 20px;
+  top: 14px;
 }
 .mobile-menu-learner .hamburger-menu-icon::after {
-    font-family: "Font Awesome 6 Free";
-    content: "\f107";
-    font-weight: 900;
-    font-size: 2rem;
-    position: absolute;
-    color: gray;
-    left: 60px;
-    top: 34px;
+  font-family: "Font Awesome 6 Free";
+  content: "\f107";
+  font-weight: 900;
+  font-size: 2rem;
+  position: absolute;
+  color: gray;
+  left: 60px;
+  top: 34px;
 }
 
 /* ---------- ここから詳細ページ ----------　*/
 /* 再生ボタン */
 .course-info .button-container a {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 .course-info .button-container a::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f04b";
-    font-weight: 900;
-    color: #000;
+  font-family: "Font Awesome 6 Free";
+  content: "\f04b";
+  font-weight: 900;
+  color: #000;
 }
 
 /* ---------- ここからマイページ ---------- */
@@ -103,9 +107,9 @@ article.course.card-wrapper .card .icons-container {
 /* 共通 */
 .member-left-links .members-links li a .icon.course-nav,
 .member-left-links .members-links li a .icon.event-nav {
-    background-image: none !important;
-    text-align: center;
-    align-content: center;
+  background-image: none !important;
+  text-align: center;
+  align-content: center;
 }
 /* 選択時のアイコン */
 .member-left-links .members-links li.active a .icon.course-nav::before,
@@ -114,23 +118,23 @@ article.course.card-wrapper .card .icons-container {
 .member-left-links .members-links li.active a .icon.event-nav::before,
 .member-left-links .members-links li:focus a .icon.event-nav::before,
 .member-left-links .members-links li:hover a .icon.event-nav::before {
-    color: #fff;
+  color: #fff;
 }
 /* コンテンツ(PC) */
 .member-left-links .members-links li a .icon.course-nav::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f26c";
-    font-weight: 900;
-    font-size: 20px;
-    color: #303030;
+  font-family: "Font Awesome 6 Free";
+  content: "\f26c";
+  font-weight: 900;
+  font-size: 20px;
+  color: #303030;
 }
 /* イベント(PC) */
 .member-left-links .members-links li a .icon.event-nav::before {
-    font-family: "Font Awesome 6 Free";
-    content: "\f519";
-    font-weight: 900;
-    font-size: 20px;
-    color: #303030;
+  font-family: "Font Awesome 6 Free";
+  content: "\f519";
+  font-weight: 900;
+  font-size: 20px;
+  color: #303030;
 }
 
 /* ---------- ここから新規登録後ページ ----------　*/
@@ -140,132 +144,147 @@ article.course.card-wrapper .card .icons-container {
 
 /* ---------- ここから検索後の動画一覧ページ ----------　*/
 /* 画像の部分を消す */
-#multimedia-container .img-container {
-    display: none;
+#multimedia-container .img-container,
+.main-container.ng-scope .img-container {
+  display: none;
 }
 /* タイトルと動画一覧の下影を消す */
 #multimedia-container .search-banner,
 #multimedia-container .member-content-area .content-white-box {
-    box-shadow: none;
+  box-shadow: none;
 }
 #multimedia-container .member-content-area .content-white-box {
-    margin-top: -6.5vw;
+  margin-top: -6.5vw;
 }
 #multimedia-container .member-content-area .search-banner {
-    /* background-image: url(https://technoeye.static.jp/media/%E6%A0%BC%E5%AD%90%E7%B8%9E_%E8%83%8C%E6%99%AF_%E9%87%91.jpg); */
-    padding: 3em !important;
-    margin-bottom: 0;
+  /* background-image: url(https://technoeye.static.jp/media/%E6%A0%BC%E5%AD%90%E7%B8%9E_%E8%83%8C%E6%99%AF_%E9%87%91.jpg); */
+  padding: 3em !important;
+  margin-bottom: 0;
 }
 /*  */
 #multimedia-container .member-content-area .content-white-box h4 {
-    display: none;
+  display: none;
 }
 /* タイトルと説明文を中央寄せ */
 #multimedia-container .member-content-area .search-banner .copy-container {
-    text-align: center;
-    width: 100% !important;
+  text-align: center;
+  width: 100% !important;
 }
-#multimedia-container .member-content-area .search-banner .copy-container p.margin-bot20 {
-    margin-bottom: 0 !important;
+#multimedia-container
+  .member-content-area
+  .search-banner
+  .copy-container
+  p.margin-bot20 {
+  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 992px) {
-    /* ---------- ここからトップページ ---------- */
-    /* 動画一覧の余白 */
-    .active-courses-slider .slick-slide,
-    .courses-slider .slick-slide,
-    .favorite-courses-slider .slick-slide,
-    .following-courses-slider .slick-slide,
-    .home-courses-slider .slick-slide {
-        padding: 1rem 5px;
-    }
+  /* ---------- ここからトップページ ---------- */
+  /* 動画一覧の余白 */
+  .active-courses-slider .slick-slide,
+  .courses-slider .slick-slide,
+  .favorite-courses-slider .slick-slide,
+  .following-courses-slider .slick-slide,
+  .home-courses-slider .slick-slide {
+    padding: 1rem 5px;
+  }
 
-    /* 検索欄の余白とアイコン(スマホ) */
-    .search-courses #multimedia-search-form .form-container.full-width {
-        margin: 0px 2%;
-        width: 96%;
-        border-radius: 4px;
-    }
-    .search-courses .form-container button,
-    .search-courses .form-container input[type=submit] {
-        background-position: 80% !important;
-    }
-    
-    /* ---------- ここから詳細ページ ---------- */
-    /* 文字の色変更 */
-    .course-details-recommended h3 {
-        color: #fff;
-        padding: 3rem 5%;
-    }
+  /* 検索欄の余白とアイコン(スマホ) */
+  .search-courses #multimedia-search-form .form-container.full-width {
+    margin: 0px 2%;
+    width: 96%;
+    border-radius: 4px;
+  }
+  .search-courses .form-container button,
+  .search-courses .form-container input[type="submit"] {
+    background-position: 80% !important;
+  }
 
-    /* ---------- ここから設定ページ ---------- */
-    /* 余白追加(スマホ) */
-    #profile-module .member-content-area .content-grey-box {
-        background-color: white;
-    }
+  /* ---------- ここから詳細ページ ---------- */
+  /* 文字の色変更 */
+  .course-details-recommended h3 {
+    color: #fff;
+    padding: 3rem 5%;
+  }
 
-    /* ---------- ここからマイページ ---------- */
-    /* 通常時のアイコン */
-    .member-left-links .members-links li a .icon.course-nav::before,
-    .member-left-links .members-links li a .icon.event-nav::before {
-        color: #b5b8c0;
-    }
+  /* ---------- ここから設定ページ ---------- */
+  /* 余白追加(スマホ) */
+  #profile-module .member-content-area .content-grey-box {
+    background-color: white;
+  }
 
-    /* 選択時のアイコン */
-    .member-left-links .members-links li.active a .icon.course-nav::before,
-    .member-left-links .members-links li:focus a .icon.course-nav::before,
-    .member-left-links .members-links li:hover a .icon.course-nav::before,
-    .member-left-links .members-links li.active a .icon.event-nav::before,
-    .member-left-links .members-links li:focus a .icon.event-nav::before,
-    .member-left-links .members-links li:hover a .icon.event-nav::before {
-        color: #303030;
-    }
+  /* ---------- ここからマイページ ---------- */
+  /* 通常時のアイコン */
+  .member-left-links .members-links li a .icon.course-nav::before,
+  .member-left-links .members-links li a .icon.event-nav::before {
+    color: #b5b8c0;
+  }
 
-    /* ---------- ここからメッセージ ---------- */
-    /* 必須項目の文字色変更 */
-    .notification-email .styled-checkbox+label span {
-        color: #fff;
-    }
-    #message-compose-container .member-content-area .content-grey-box .note.add-padding {
-        color: #fff;
-    }
+  /* 選択時のアイコン */
+  .member-left-links .members-links li.active a .icon.course-nav::before,
+  .member-left-links .members-links li:focus a .icon.course-nav::before,
+  .member-left-links .members-links li:hover a .icon.course-nav::before,
+  .member-left-links .members-links li.active a .icon.event-nav::before,
+  .member-left-links .members-links li:focus a .icon.event-nav::before,
+  .member-left-links .members-links li:hover a .icon.event-nav::before {
+    color: #303030;
+  }
 
-    /* ---------- ここから通知 ---------- */
-    /* チェックボックスの説明文 */
-    #notification-container .styled-checkbox+label span {
-        color: #fff;
-    }
-    /* 必須項目の文字色変更 */
-    #notification-container .member-content-area .content-grey-box .note.mobile-padding {
-        color: #fff;
-    }
+  /* ---------- ここからメッセージ ---------- */
+  /* 必須項目の文字色変更 */
+  .notification-email .styled-checkbox + label span {
+    color: #fff;
+  }
+  #message-compose-container
+    .member-content-area
+    .content-grey-box
+    .note.add-padding {
+    color: #fff;
+  }
 
-    /* ---------- ここからファイル ---------- */
-    /* 並び替えの文字色 */
-    .member-content-area .inner-heading.mobile-full-width .right span.bold{
-        color: #fff;
-    }
-    /* アップロード画面の背景 */
-    .member-content-area .content-grey-box.small-padding {
-        background-color: #fff;
-    }
+  /* ---------- ここから通知 ---------- */
+  /* チェックボックスの説明文 */
+  #notification-container .styled-checkbox + label span {
+    color: #fff;
+  }
+  /* 必須項目の文字色変更 */
+  #notification-container
+    .member-content-area
+    .content-grey-box
+    .note.mobile-padding {
+    color: #fff;
+  }
 
+  /* ---------- ここからファイル ---------- */
+  /* 並び替えの文字色 */
+  .member-content-area .inner-heading.mobile-full-width .right span.bold {
+    color: #fff;
+  }
+  /* アップロード画面の背景 */
+  .member-content-area .content-grey-box.small-padding {
+    background-color: #fff;
+  }
 }
 
 /* 640px以下 */
 @media (max-width: 640px) {
-    /* ---------- テキストを白に変更 ---------- */
-    .course-lesson-copy /* 動画一覧を見る(スマホ) */ {
-        color: #fff;
-    }
-  
-    /* ---------- ここから検索後の動画一覧ページ ----------　*/
-    /* 検索結果の余白 */
-    #multimedia-container .member-content-area .search-banner {
-        padding-bottom: 0 !important;
-    }
-    /* キーワード検索の余白 */
-    #multimedia-container .member-content-area .heading__h5 .text-primary .width100 .margin-bot10 {
-        margin-bottom: 0 !important;
-    }
+  /* ---------- テキストを白に変更 ---------- */
+  .course-lesson-copy /* 動画一覧を見る(スマホ) */ {
+    color: #fff;
+  }
+
+  /* ---------- ここから検索後の動画一覧ページ ----------　*/
+  /* 検索結果の余白 */
+  #multimedia-container .member-content-area .search-banner {
+    padding-bottom: 0 !important;
+  }
+  /* キーワード検索の余白 */
+  #multimedia-container
+    .member-content-area
+    .heading__h5
+    .text-primary
+    .width100
+    .margin-bot10 {
+    margin-bottom: 0 !important;
+  }
 }
