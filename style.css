@@ -166,10 +166,12 @@ article.course.card-wrapper .card .icons-container {
   box-shadow: none;
 }
 /* タイトル部分の余白調節 */
-#multimedia-container .member-content-area .search-banner,
-.main-container.ng-scope .search-banner {
+#multimedia-container .member-content-area .search-banner {
   padding: 3em !important;
   margin-bottom: 0;
+}
+.main-container.ng-scope .search-banner {
+  padding: 3em !important;
 }
 /* タイトルと説明文を中央寄せ */
 #multimedia-container .member-content-area .search-banner .copy-container,
